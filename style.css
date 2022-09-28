@@ -1,0 +1,131 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+--Gradient1: hsl(6, 100%, 80%);
+--Gradient2: hsl(335, 100%, 65%);
+--Pale-Blue: hsl(243, 100%, 93%);
+--Grayish-Blue: hsl(229, 7%, 55%);
+--Dark-Blue: hsl(228, 56%, 26%);
+--Very-Dark-Blue: hsl(229, 57%, 11%);
+--font-Raleway: 'Raleway', sans-serif;
+}
+
+body {
+ width: 1440px;
+ height: 800px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: var(--Very-Dark-Blue) url(images/bg-desktop.png) bottom no-repeat;
+ font-size: 14px;
+ font-family: var(--font-Raleway);
+ color: var(--Pale-Blue);
+}
+
+main {
+ width: 75%;
+ height: 25%;
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+ gap: 4%;
+ margin-right: -5%;
+ margin-bottom: 2%;
+}
+
+.logo-data {
+ width: 30%;
+ height: 100%;
+ padding: 4%;
+ border-radius: 10px 90px 10px 10px;
+ background-color: var(--Dark-Blue);
+}
+
+.icon-data {
+ height: 37%;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 6%;
+ margin: 10% 0;
+}
+
+.icon {
+ width: 15%;
+ height: 100%;
+ padding: 3px;
+ border-radius: 6px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--Very-Dark-Blue);
+}
+
+.data {
+ width: 60%;
+ height: 80%;
+ padding: 4%;
+ border-radius: 15px;
+ background-color: var(--Dark-Blue);
+}
+
+.flotante {
+ width: 10%;
+ height: 7%;
+ padding: 1%;
+ position: absolute;
+ right: 15%;
+ top: 36%;
+ background-color: var(--Pale-Blue);
+ color: var(--Very-Dark-Blue);
+ font-size: 10px;
+ display: flex;
+ align-items: center;
+ gap: 10%;
+ border-radius: 8px 8px 0 8px;
+}
+
+.complemento-flotante {
+ width: 0;
+ height: 0;
+ border-right: 30px solid transparent;
+ border-top: 28px solid transparent;
+ border-left: 28px solid var(--Pale-Blue);
+ border-bottom: 28px solid var(--Pale-Blue);
+ transform: rotate(45deg);
+ position: absolute;
+ right: 13%;
+ top: 38%;
+}
+
+.flotante b {
+ font-size: 25px;
+}
+
+.input-range {
+ overflow: hidden;
+ width: 100%;
+ margin: 2% 0;
+ border-radius: 8px; 
+ -webkit-appearance: none;
+ background-color: var(--Very-Dark-Blue);
+}
+
+.input-range::-webkit-slider-thumb {
+ width: 15px;
+ height: 15px;
+ -webkit-appearance: none;
+ border-radius: 20px;
+ background: var(--Pale-Blue);
+ box-shadow:-400px 0 155px 170px var(--Gradient1), -300px 0 16px 290px var(--Gradient2);
+}
+
+.gb {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}

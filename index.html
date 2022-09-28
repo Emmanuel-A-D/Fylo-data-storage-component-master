@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> <!-- font-family: 'Raleway', sans-serif; -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+  <main>
+    <section class="logo-data">
+      <div class="div-logo">
+        <img src="images/logo.svg" alt="logo" class="logo">
+      </div>
+      <div class="icon-data">
+        <div class="icon">
+          <img src="images/icon-document.svg" alt="icon-document" class="document">
+        </div>
+        <div class="icon">
+          <img src="images/icon-folder.svg" alt="folder" class="folder">
+        </div>
+        <div class="icon">
+          <img src="images/icon-upload.svg" alt="upload" class="upload">
+        </div>
+      </div>
+    </section>
+
+    <section class="data">
+      <p>You’ve used <b> 815 GB </b> of your storage</p>
+      <div class="complemento-flotante"></div>
+      <div class="flotante">
+        <span id="value-range"> <b> 185 </b></span> <p> GB Left</p>
+      </div>
+      <input type="range" class="input-range" id="range" min="1" max="1000" value="1">
+      <div class="gb">
+        <span id="value-range">0 GB</span>
+        <p>1000 GB</p>
+      </div>
+    </section>
+  </main>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
