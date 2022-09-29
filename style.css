@@ -102,8 +102,9 @@ main {
  top: 38%;
 }
 
-.flotante b {
+.flotante span {
  font-size: 25px;
+ font-weight: 700;
 }
 
 .input-range {
